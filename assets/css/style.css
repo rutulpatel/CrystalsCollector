@@ -1,0 +1,11 @@
+body {
+    background: url(../pattern/congruent_pentagon.png);
+}
+
+.title_box {
+    background: #007AFF;
+}
+
+.title_box > h1 {
+    color: #fff;
+}
