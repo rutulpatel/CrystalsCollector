@@ -20,33 +20,51 @@
         <div class="container page-header text-center title_box">
             <h1>Crystal Collector</h1>
         </div>
-        <div class="container">
+        <div class="container status-container">
             <div class="row">
-                <div class="col-md-8">
-                    <h2>Random number: <span id="randomNumber">0</span> </h2>
+                <div class="col-md-8 random_number_block">
+                    <div class="col-md-12">
+                        <h2>Number: <span id="randomNumber">0</span> </h2>
+                    </div>
+                    <div class="col-md-12">
+                        <h2 id="resultMsg"></h2>
+                    </div>
                 </div>
                 <div class="col-md-4 wins-loss">
-                    <div class="col-md-12 wins">
+                    <div class="col-md-12 wins_block">
                         <h2>Wins: <span id="wins">0</span></h2>
                     </div>
-                    <div class="col-md-12 losses">
+                    <div class="col-md-12 losses_block">
                         <h2>Losses: <span id="losses">0</span></h2>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="col-xs-6 col-md-3">
-                    <img class="img-responsive" src="assets/images/crystal1.jpeg" >
+            <br>
+            <div class="row">
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img_anchor" id="crystal1" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/crystal1.jpeg" id="crystal1" >
+                    </a>
                 </div>
-                <div class="col-xs-6 col-md-3">
-                    <img class="img-responsive" src="assets/images/crystal2.jpeg" >
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img_anchor" id="crystal2" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/crystal2.jpeg" id="crystal2" >
+                    </a>
                 </div>
-                <div class="col-xs-6 col-md-3">
-                    <img class="img-responsive" src="assets/images/crystal3.jpeg" >
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img_anchor" id="crystal3" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/crystal3.jpeg" id="crystal3" >
+                    </a>
                 </div>
-                <div class="col-xs-6 col-md-3">
-                    <img class="img-responsive" src="assets/images/crystal4.jpg" >
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img_anchor" id="crystal4" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/crystal4.jpeg" >
+                    </a>
                 </div>
+            </div>
+            <br>
+            <div class="row total_score_container">
+                <h2>Your total score is: <h1><span id="totalScore">0</span></h1></h2>
             </div>
         </div>
     </div>
